@@ -14,7 +14,7 @@ namespace Patika_DevAlgoritma3
             Console.Write("Kaç tane sayı gireceğinizi yazınız: ");
             int limit = int.Parse(Console.ReadLine());
             List<int> kucukdizi = new List<int>();//küçük olan sayıların farklarının toplamı için dizi oluşturuldu.
-            List<int> buyukdizi = new List<int>();//küçük olan sayıların farklarının toplamı için dizi oluşturuldu.
+            List<int> buyukdizi = new List<int>();//büyük olan sayıların farklarının toplamı için dizi oluşturuldu.
             for (int i = 0; i < limit; i++)
             {
                 Console.Write((i+1) + ". Sayıyı giriniz: ");
